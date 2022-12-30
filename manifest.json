@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "OpenAI Chat Window",
+  "version": "1.0.3",
+  "action": {
+    "default-title": "Words", 
+    "default-popup": "./chat.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+],
+  "description": "A chat window extension that uses the text-davinci-003 model to answer questions."
+}
